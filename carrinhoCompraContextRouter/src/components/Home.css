@@ -1,0 +1,42 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  #ebebeb;
+    /*  */
+}
+
+.home-h1 {
+    background-color: #231651;
+    color: #fff;
+    margin: 6rem;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 2.3rem;
+    
+}
+
+.home-title-div {
+    background-color: #2374AB;
+    padding: 2rem;
+    color: #ddd;
+    margin-bottom: 1rem;
+}
+
+.home-products-div > p {
+    font-size: 1.2rem;
+}
+.link-to-products {
+    text-decoration: none;
+    color: #ddd;
+    font-size: 1.5rem;
+    background-color: #2374AB;
+    padding: 10px;
+    margin: 1rem;
+   
+}
+.link-to-products:hover {
+    color: #bbbaba;
+
+}
