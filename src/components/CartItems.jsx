@@ -6,8 +6,8 @@ const CartItems = ({data}) => {
     const {cartItems, setCartItems} = useContext(AppContext)
     const {id, thumbnail, title, price} = data
     const handleRemove = () => {
-        const uptade = cartItems.filter((item) => item.id !== id)
-        setCartItems(uptade)
+        const updatedItems = cartItems.filter((item) => item.id !== id)
+      setCartItems(updatedItems)
     }
   return (
     <div className='cart-item'>
