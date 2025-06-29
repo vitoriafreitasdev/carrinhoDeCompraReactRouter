@@ -7,7 +7,7 @@ const CartItems = ({data}) => {
     const {id, thumbnail, title, price} = data
     const handleRemove = () => {
         const updatedItems = cartItems.filter((item) => item.id !== id)
-      setCartItems(updatedItems)
+        setCartItems(updatedItems)
     }
   return (
     <div className='cart-item'>
